@@ -1,0 +1,19 @@
+{
+    "name": "ebolution/graph-ql-translation",
+    "version": "1.0.0",
+    "description": "Helps to solve issues with localization of GraphQl responses",
+    "authors": [
+        {
+            "name": "Ebolution Team",
+            "email": "desarrollo@ebolution.com"
+        }
+    ],
+    "type": "magento2-module",
+    "autoload": {
+        "psr-4": {"[Ebolution\\GraphQlTranslation\\]":""},
+        "files": ["registration.php"]
+    },
+    "license": [
+        "MIT License"
+    ]
+}
