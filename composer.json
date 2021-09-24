@@ -10,8 +10,12 @@
     ],
     "type": "magento2-module",
     "autoload": {
-        "psr-4": {"[Ebolution\\GraphQlTranslation\\]":""},
-        "files": ["registration.php"]
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ebolution\\GraphQlTranslation\\": ""
+        }
     },
     "license": [
         "MIT License"
